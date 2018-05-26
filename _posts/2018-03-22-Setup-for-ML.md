@@ -1,7 +1,7 @@
 ---
 layout: post
 title:  "Setup for ML"
-date:   2018-03-22 20:00:00 -0700
+date:   2018-03-22 08:00:00 -0700
 categories: Research
 ---
 These are my notes to set up the environment to use Tensorflow with the GPU on my machine. This post applies to the following configuration:
@@ -17,21 +17,21 @@ This document describes the steps to:
 - [Install Ubuntu 16-04](#install-ubuntu-16-04)
 - [Check CUDA pre-requisites](#check-cuda-pre-requisites)
 - [Install CUDA Toolkit](#install-cuda-toolkit)
-- [Install CUDA runtime and examples](#install-cuda-runtime-and-examples)
+- [Install CUDA Libraries](#install-cuda-libraries)
 - [Set paths in terminal startup file](#set-paths-in-terminal-startup-file)
 - [Test CUDA installation](#test-cuda-installation)
 - [Install python packages and tensorflow-gpu](#install-python-packages-and-tensorflow-gpu)
 - [Test tensorflow installation](#test-tensorflow-installation)
 - [Set terminal theme](#set-terminal-theme)
 
-I will be following steps listed on the [Tensorflow installation page][install-tensorflow] for the CUDA and tensorflow-gpu installations. This post is motivated noticing that 1. the commands listed on the Tensorflow page need to be modified for the version of graphics drivers I'm working with and 2. the instructions relevant for me are scattered all over the page. Here I list all the steps I performed to achieve the final working configuration, in the spirit of [this blog post][config-outline]. 
+Commands for CUDA and tensorflow-gpu installations are taken directly from the [Tensorflow installation page][install-tensorflow], with minor edits to work with my configuration. 
 
 #### <a href="#install-ubuntu-16-04">Install Ubuntu 16-04</a>
 
 1. Issue: Display went blank after the initial BIOS screen. <br>
 Fix: 
 - Choose Legacy booting option from the BIOS options
-- Press down arrow key while booting, and set the `nomodeset` option. (Source: [StackExchange] [nomodeset-fix]).
+- Press the down arrow key (or the shift key) while booting, and set the `nomodeset` option. (Source: [StackExchange](https://askubuntu.com/questions/162075/my-computer-boots-to-a-black-screen-what-options-do-i-have-to-fix-it/162076#162076)).
 
 2. Issue: Booting into freshly installed OS led to a blank screen after the initial BIOS screen. Occasionally would see garbled text, or error messages. A common message was `error parsing pcc subspaces from pcct after nomodeset`. <br>
 Fix:
@@ -66,10 +66,10 @@ sudo apt-get --reinstall install linux-headers-`uname -r`
 {% endhighlight %}
 
 #### <a href="#install-cuda-toolkit">Install CUDA toolkit</a>
-Following the instructions listed here on the [NVIDIA page][install-cuda-toolkit]. 
+Following the instructions listed on the [NVIDIA page](http://docs.nvidia.com/cuda/cuda-installation-guide-linux/index.html): 
 
 {% highlight bash %}
-#Download the file manually if the next command doesn't work
+#Download the file manually if the wget command fails to retrieve the .deb file
 wget -q https://developer.nvidia.com/compute/cuda/9.0/Prod/local_installers/cuda-repo-ubuntu1604-9-0-local_9.0.176-1_amd64-deb
 #Change name to have the .deb extension
 mv cuda-repo-ubuntu1604-9-0-local_9.0.176-1_amd64-deb cuda-repo-ubuntu1604-9-0-local_9.0.176-1_amd64.deb
@@ -98,8 +98,8 @@ Check version of CUDA compiler driver installed; the expected value is `release 
 nvcc -V
 {% endhighlight %}
 
-#### <a href="#install-cuda-runtime-and-examples">Install CUDA runtime and examples</a>
-Tensorflow uses the graphics card through specific CUDA libraries. Counterintuitively, the archive of releases is available only on following links to download the latest version. You will have to create/log into an NVIDIA account to download these. Login and download the following .deb files for `cuDNN v7.0.5 (Dec 5, 2017), for CUDA 9.0` from [this link][download-cuDNN].
+#### <a href="#install-cuda-libraries">Install CUDA libraries</a>
+Tensorflow uses the graphics card through specific CUDA libraries. The archive of releases can be found by following links to download the latest version. You may have to create an account/login to download the .deb files for `cuDNN v7.0.5 (Dec 5, 2017), for CUDA 9.0` from [https://developer.nvidia.com/rdp/cudnn-download](https://developer.nvidia.com/rdp/cudnn-download).
 - cuDNN v7.0.5 Runtime Library for Ubuntu16.04 (Deb)
 - cuDNN v7.0.5 Developer Library for Ubuntu16.04 (Deb)
 - cuDNN v7.0.5 Code Samples and User Guide for Ubuntu16.04 (Deb)
@@ -112,16 +112,17 @@ sudo dpkg -i libcudnn7-doc_7.0.5.15-1+cuda9.0_amd64.deb
 {% endhighlight %}
 
 #### <a href="#set-paths-in-terminal-startup-file">Set paths in terminal startup file</a>
-This sets the correct paths in bash that will be used by tensorflow:
-Note: The `subl` command below refers to the text editor I use (sublime text). 
+Set paths in bash to point to the CUDA installation
 {% highlight bash %}
+#Open bashrc file in a text editor (subl is my sublime text install)
 subl ~/.bashrc
-#Added as per CUDA 9.0 post installation actions
+
+#1. CUDA 9.0 post installation actions
 export PATH=/usr/local/cuda-9.0/bin${PATH:+:${PATH}}
 export LD_LIBRARY_PATH=/usr/local/cuda-9.0/lib64\ ${LD_LIBRARY_PATH:+:${LD_LIBRARY_PATH}}
 /usr/bin/nvidia-persistenced --verbose
 
-#From Tensorflow install instructions
+#2. Tensorflow install instructions
 export LD_LIBRARY_PATH=$LD_LIBRARY_PATH:/usr/local/cuda/extras/CUPTI/lib64
 {% endhighlight %}
 
@@ -150,7 +151,6 @@ Some other useful packages
 {% highlight bash %}
 pip3 install --upgrade seaborn
 pip3 install --upgrade keras
-pip3 install --upgrade pydot graphviz
 {% endhighlight %}
 
 #### <a href="#test-tensorflow-installation">Test tensorflow installation</a>
@@ -162,7 +162,7 @@ sess = tf.Session()
 print(sess.run(hello))
 {% endhighlight %}
 
-From another [StackExchange post][check-tensorflow-gpu]: A check for whether the GPU was invoked:
+From another [StackExchange post](https://stackoverflow.com/questions/38009682/how-to-tell-if-tensorflow-is-using-gpu-acceleration-from-inside-python-shell): A check for whether the GPU was invoked:
 {% highlight python %}
 import tensorflow as tf
 with tf.device('/gpu:0'):
@@ -175,16 +175,10 @@ with tf.Session() as sess:
 Output `/gpu:0` indicates that the GPU was used. You may also see the name of the GPU listed in the output.
 
 #### <a href="#set-terminal-theme">Set terminal theme</a>
-I am not too fond of the default ubuntu terminal colors, instead I use the Smycks theme from github user [Mayccoll][term-theme]:
+I am not too fond of the default ubuntu terminal colors, instead I use the Smycks theme from github user [Mayccoll](https://github.com/Mayccoll/Gogh):
 {% highlight bash %}
 sudo apt-get install dconf-cli
 wget -O gogh https://git.io/vQgMr && chmod +x gogh && ./gogh && rm gogh
 {% endhighlight %}
 
-[nomodeset-fix]: https://askubuntu.com/questions/162075/my-computer-boots-to-a-black-screen-what-options-do-i-have-to-fix-it/162076#162076
-[config-outline]: http://www.python36.com/install-tensorflow141-gpu/
 [install-tensorflow]: https://www.tensorflow.org/install/install_linux
-[install-cuda-toolkit]: http://docs.nvidia.com/cuda/cuda-installation-guide-linux/index.html
-[download-cuDNN]: https://developer.nvidia.com/rdp/cudnn-download
-[check-tensorflow-gpu]: https://stackoverflow.com/questions/38009682/how-to-tell-if-tensorflow-is-using-gpu-acceleration-from-inside-python-shell 
-[term-theme]: https://github.com/Mayccoll/Gogh
