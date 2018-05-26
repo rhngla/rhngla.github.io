@@ -4,27 +4,27 @@ title:  "Setup for ML"
 date:   2018-03-22 08:00:00 -0700
 categories: Research
 ---
-These are my notes to set up the environment to use Tensorflow with the GPU on my machine. This post applies to the following configuration:
-- Architecture x86_64 Ubuntu 16.04 LTS
+These are my notes to set up a new computer to use tensorflow-gpu. The final system configuration:
+- x86_64 Ubuntu 16.04
 - GeForce GTX 1080 Ti
 - NVIDIA driver 384.111
 - CUDA 9.0
-- cuDNN v7.0.5 (Dec 5, 2017), for CUDA 9.0
+- cuDNN v7.0.5 for CUDA 9.0
 - Python 3.5
 - Tensorflow 1.6
 
 This document describes the steps to:
-- [Install Ubuntu 16-04](#install-ubuntu-16-04)
-- [Check CUDA pre-requisites](#check-cuda-pre-requisites)
-- [Install CUDA Toolkit](#install-cuda-toolkit)
-- [Install CUDA Libraries](#install-cuda-libraries)
-- [Set paths in terminal startup file](#set-paths-in-terminal-startup-file)
-- [Test CUDA installation](#test-cuda-installation)
-- [Install python packages and tensorflow-gpu](#install-python-packages-and-tensorflow-gpu)
-- [Test tensorflow installation](#test-tensorflow-installation)
-- [Set terminal theme](#set-terminal-theme)
+1. [Install Ubuntu 16-04](#install-ubuntu-16-04)
+2. [Check CUDA pre-requisites](#check-cuda-pre-requisites)
+3. [Install CUDA Toolkit](#install-cuda-toolkit)
+4. [Install CUDA Libraries](#install-cuda-libraries)
+5. [Set paths in terminal startup file](#set-paths-in-terminal-startup-file)
+6. [Test CUDA installation](#test-cuda-installation)
+7. [Install python packages and tensorflow-gpu](#install-python-packages-and-tensorflow-gpu)
+8. [Test tensorflow installation](#test-tensorflow-installation)
+9. [Set terminal theme](#set-terminal-theme)
 
-Commands for CUDA and tensorflow-gpu installations are taken directly from the [Tensorflow installation page][install-tensorflow], with minor edits to work with my configuration. 
+Commands to install CUDA and tensorflow-gpu are sourced from the [Tensorflow installation page][install-tensorflow], with minor edits to work with my configuration. 
 
 #### <a href="#install-ubuntu-16-04">Install Ubuntu 16-04</a>
 
@@ -33,7 +33,7 @@ Fix:
 - Choose Legacy booting option from the BIOS options
 - Press the down arrow key (or the shift key) while booting, and set the `nomodeset` option. (Source: [StackExchange](https://askubuntu.com/questions/162075/my-computer-boots-to-a-black-screen-what-options-do-i-have-to-fix-it/162076#162076)).
 
-2. Issue: Booting into freshly installed OS led to a blank screen after the initial BIOS screen. Occasionally would see garbled text, or error messages. A common message was `error parsing pcc subspaces from pcct after nomodeset`. <br>
+2. Issue: Booting into newly installed OS led to a blank screen after the initial BIOS screen. Occasionally would show garbled text, or error messages. A common message was `error parsing pcc subspaces from pcct after nomodeset`. <br>
 Fix:
 - Holding the right shift key after the boot screen (supposed to load the grub menu) seemed to work. Not sure what actually happened.
 
@@ -41,7 +41,7 @@ Fix:
 Fix: 
  - Choose the NVIDIA driver from `Applications->Additional Drivers`, and restart. Computer then boots smoothly into the OS.
 
-Notes: NVIDIA version 384.111 is the latest supported driver on the official Ubuntu package archive - and is the one that works for the remainder of the setup. If the default nouveau driver was correclty replaced through `Additional Drivers`, the following command will produce an empty result:
+Notes: NVIDIA version 384.111 is the latest supported driver on the official Ubuntu package archive as of 3/22/2018. If the default nouveau driver is correctly replaced through `Additional Drivers`, the following command will produce an empty result:
 {% highlight bash %}
 lsmod | grep nouveau
 {% endhighlight %}
@@ -60,7 +60,7 @@ Mine were:
 - GCC version 5.4.0
 - GLIBC version 2.23
 
-A related command (if necessary) to have apt-get reinstall the linux-headers package for current kernel version.
+A related command (if necessary) to have apt-get reinstall the linux-headers package for current kernel version:
 {% highlight bash %}
 sudo apt-get --reinstall install linux-headers-`uname -r`
 {% endhighlight %}
