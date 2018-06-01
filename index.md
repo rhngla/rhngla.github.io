@@ -4,5 +4,5 @@
 # See: https://jekyllrb.com/docs/themes/#overriding-theme-defaults
 layout: home
 ---
-I am a research scientist in Uygar Sümbül's group at the [Allen Institute](https://www.alleninstitute.org/). I work on the development of computational methods to analyze multimodal datasets, aimed towards understanding the diversity and inter-relationships of cell types in the brain. Previously, I obtained a Ph.D. in Physics from [Northeastern University](http://www.northeastern.edu/), and completed a B.Tech & M.Tech in Engineering Physics at [IIT Bombay](http://www.iitb.ac.in/).
+I am a research scientist in Uygar Sümbül's group at the [Allen Institute](https://www.alleninstitute.org/). I develop computational methods to analyze multimodal datasets, with the aim of understanding the diversity and inter-relationships of cell types in the brain. I received a Ph.D. in Physics from [Northeastern University](http://www.northeastern.edu/), where I was part of the [Neurogeometry lab](http://northeastern.edu/neurogeometry/). Prior to that, I obtained a B.Tech & M.Tech in Engineering Physics from [IIT Bombay](http://www.iitb.ac.in/).
 
