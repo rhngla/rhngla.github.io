@@ -16,7 +16,7 @@
 title: Rohan Gala
 email: rhngla@gmail.com
 description: >- # this means to ignore newlines until "baseurl:"
-  A collection of posts on research.
+  ML and Neuroscience.
 baseurl: "" # the subpath of your site, e.g. /blog
 url: "" # the base hostname & protocol for your site, e.g. http://example.com
 twitter_username: rhngla
@@ -25,7 +25,7 @@ github_username:  rhngla
 # Build settings
 markdown: kramdown
 theme: minima
-#plugins:
+plugins:
 #  - jekyll-feed
 
 # Exclude from processing.
