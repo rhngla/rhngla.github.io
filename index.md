@@ -18,23 +18,23 @@ I obtained a Ph.D. from [Northeastern University](http://www.northeastern.edu/),
 I'm broadly interested in representation learning, computer vision, and statistical mechanics. Currently, I'm working on developing non-linear dimensionality reduction methods to evaluate correspondence across different data modalities, aimed at establishing consistent cell type taxonomies.
 
 [**Transcriptomic evidence for dense peptidergic neuromodulation networks in mouse cortex**](https://www.biorxiv.org/content/early/2019/01/13/519694)<br>
-Bioarxiv (2019)<br>
+_Bioarxiv_ 2019<br>
 S Smith, U Sümbül, L Graybuck, F Collman, S Seshamani,
 **R Gala**, O Gliko, L Elabbady, J Miller, T Bakken, Z Yao, E Lein,
 H Zeng, B Tasic, M Hawrylycz.<br>
 
 [**Computer assisted detection of axonal bouton structural plasticity in in vivo time-lapse images**](https://elifesciences.org/articles/29315)<br>
+_Elife_ (2017)<br>
 **R Gala**, D Lebrecht, DA Sahlender, A Jorstad, G Knott, A Holtmaat, A Stepanyants<br>
-Elife (2017)<br>
 
 [**Effects of homeostatic constraints on associative memory storage and synaptic connectivity of cortical circuits**](https://www.frontiersin.org/articles/10.3389/fncom.2015.00074/full)<br>
-Frontiers in computational neuroscience (2015)<br>
+_Frontiers in computational neuroscience_ 2015<br>
 J Chapeton, **R Gala**, A Stepanyants<br>
 
 [**Active learning of neuron morphology for accurate automated tracing of neurites**](https://www.frontiersin.org/articles/10.3389/fnana.2014.00037/full)<br>
-Frontiers in neuroanatomy (2014)<br>
+_Frontiers in neuroanatomy_ 2014<br>
 **R Gala**, J Chapeton, J Jitesh, C Bhavsar, A Stepanyants<br>
 
 [**Size ratio universality in chaotic systems**](https://www.worldscientific.com/doi/abs/10.1142/S0218127412500058)<br>
-International Journal of Bifurcation and Chaos (2012)<br>
+_International Journal of Bifurcation and Chaos_ 2012<br>
 **R Gala**, P Parmananda<br>
