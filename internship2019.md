@@ -3,6 +3,7 @@
 # Edit theme's home layout instead if you wanna make some changes
 # See: https://jekyllrb.com/docs/themes/#overriding-theme-defaults
 layout: default_nofooter
+title: Internship
 ---
 
 ## 2019 Allen Institute summer internship program: 
@@ -25,7 +26,7 @@ Visit [celltypes.brain-map.org](http://celltypes.brain-map.org) to learn more ab
  - Must be enrolled in an undergraduate or Master’s degree program, and returning to school for the fall semester
  - Must commit to the full internship duration. Interns are expected to work 35-40 hr/week
  - 18+ years of age
- 
+
 ### How to apply:
  - Ensure that you meet all the requirements!
  - Email your resume (.pdf format) + a short paragraph (4-5 sentences) outlining your motivation to pursue this opportunity with **Internship 2019** as the subject to [rohang@alleninstitute.org](mailto:rohang@alleninstitute.org) by **January 30, 2019**
