@@ -8,7 +8,7 @@ title: Internship
 
 <img align='right' src="./assets/AIBS.png">
 
-We are looking for one summer intern as part of the [2019 Allen Institute summer internship program](https://alleninstitute.org/careers/internships/). Here is the direct link to the [official advertisement](https://alleninstitute.hrmdirect.com/employment/job-opening.php?req=937507).
+Our group is looking for one summer intern as part of the [2019 Allen Institute summer internship program](https://alleninstitute.org/careers/internships/). Here is the direct link to the [official advertisement](https://alleninstitute.hrmdirect.com/employment/job-opening.php?req=937507).
 
 ### Project description:
 
