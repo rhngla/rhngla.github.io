@@ -6,10 +6,9 @@ layout: default_nofooter
 title: Internship
 ---
 
-## 2019 Allen Institute summer internship program: 
+<img align='right' src="./assets/AIBS.png">
 
-I will be mentoring one summer intern as part of the [2019 Allen Institute summer internship program](https://alleninstitute.org/careers/internships/). Here is the direct link to the [official advertisement](https://alleninstitute.hrmdirect.com/employment/job-opening.php?req=937507).
-
+We are looking for one summer intern as part of the [2019 Allen Institute summer internship program](https://alleninstitute.org/careers/internships/). Here is the direct link to the [official advertisement](https://alleninstitute.hrmdirect.com/employment/job-opening.php?req=937507).
 
 ### Project description:
 
@@ -28,10 +27,8 @@ Visit [celltypes.brain-map.org](http://celltypes.brain-map.org) to learn more ab
  - 18+ years of age
 
 ### How to apply:
- - Ensure that you meet all the requirements!
- - Email your resume (.pdf format) + a short paragraph (4-5 sentences) outlining your motivation to pursue this opportunity with **Internship 2019** as the subject to [rohang@alleninstitute.org](mailto:rohang@alleninstitute.org) by **January 30, 2019**
- - Submit an application on the [**online portal**](https://alleninstitute.hrmdirect.com/employment/job-opening.php?req=937507). A letter of recommendation will be requested only from shortlisted candidates at a later date.
-
-### Compensation:
- - $15.00/hr (equivalent to ~$6,000 for the entire internship duration)
+ - Complete the application on the [**online portal**](https://alleninstitute.hrmdirect.com/employment/job-opening.php?req=937507) by **January 30, 2019**. You will have to provide:
+    1. Resume (.pdf)
+    2. Cover letter (.pdf)
+    3. Contact details of one referee
 
