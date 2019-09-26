@@ -15,7 +15,11 @@ I obtained a Ph.D. from [Northeastern University](http://www.northeastern.edu/),
 [Email](mailto:rhngl@protonmail.com) / [Google Scholar](https://scholar.google.com/citations?user=_TlezdMAAAAJ) / [Twitter](https://twitter.com/rhngla)
 
 ## Research 
-I'm broadly interested in representation learning, computer vision, and statistical mechanics. Currently, I'm working on developing non-linear dimensionality reduction methods to evaluate correspondence across different data modalities, aimed at establishing consistent cell type taxonomies.
+I'm broadly interested in representation learning, computer vision, and statistical mechanics. Currently, I'm developing non-linear dimensionality reduction methods to evaluate correspondence across different data modalities, aimed at establishing consistent cell type taxonomies.
+
+[**A coupled autoencoder approach for multi-modal analysis of cell types**](https://neurips.cc/Conferences/2019/AcceptedPapersInitial)<br>
+_NeurIPS_ 2019 (accepted)<br>
+**R Gala**, N Gouwens, Z Yao, A Budzillo, O Penn, B Tasic, G Murphy, H Zeng, U Sümbül.<br>
 
 [**Transcriptomic evidence for dense peptidergic neuromodulation networks in mouse cortex**](https://www.biorxiv.org/content/early/2019/01/13/519694)<br>
 _Bioarxiv_ 2019<br>
