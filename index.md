@@ -12,7 +12,7 @@ I am a research scientist in the Informatics and Data Science group at the [Alle
 
 I obtained a Ph.D. from [Northeastern University](http://www.northeastern.edu/), where I was advised by [Armen Stepanyants](https://scholar.google.com/citations?hl=en&user=l8csv_wAAAAJ&) as part of the [Neurogeometry lab](http://www.northeastern.edu/neurogeometry/). As part of my thesis, I developed computational tools [NCTracer](http://www.northeastern.edu/neurogeometry/resources/tools/) and [BoutonAnalyzer](https://github.com/neurogeometry/BoutonAnalyzer) to quantify neuronal structures from light microscopy images. I also worked on theoretical models of associative learning aimed at explaining statistical features of connectivity in the cortex. Prior to that, I obtained a B.Tech. & M.Tech. in Engineering Physics from [IIT Bombay](http://www.iitb.ac.in/). 
 
-[Email](mailto:rhngl@protonmail.com) / [Google Scholar](https://scholar.google.com/citations?user=_TlezdMAAAAJ) / [Twitter](https://twitter.com/rhngla) /[Github](https://github.com/rhngla)
+[Email](mailto:rhngl@protonmail.com) / [Google Scholar](https://scholar.google.com/citations?user=_TlezdMAAAAJ) / [Github](https://github.com/rhngla) / [Twitter](https://twitter.com/rhngla) 
 
 ## Research 
 I'm broadly interested in representation learning, computer vision, and statistical mechanics. Currently, I'm developing non-linear dimensionality reduction methods to evaluate correspondence across different data modalities, aimed at establishing consistent cell type taxonomies.
