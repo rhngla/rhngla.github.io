@@ -17,14 +17,14 @@ I obtained a Ph.D. from [Northeastern University](http://www.northeastern.edu/),
 ## Research 
 I'm broadly interested in representation learning, computer vision, and statistical mechanics. Currently, I'm developing non-linear dimensionality reduction methods to evaluate correspondence across different data modalities, aimed at establishing consistent cell type taxonomies.
 
-[**A coupled autoencoder approach for multi-modal analysis of cell types**](https://neurips.cc/Conferences/2019/AcceptedPapersInitial)<br>
-_NeurIPS_ 2019 (accepted)<br>
+[**A coupled autoencoder approach for multi-modal analysis of cell types**](https://neurips.cc/Conferences/2019/AcceptedPapersInitial) | [preprint](https://arxiv.org/abs/1911.05663) | [code](https://github.com/AllenInstitute/coupledAE)<br>
+_NeurIPS_ 2019<br>
 **R Gala**, N Gouwens, Z Yao, A Budzillo, O Penn, B Tasic, G Murphy, H Zeng, U Sümbül.<br>
 
-[**Transcriptomic evidence for dense peptidergic neuromodulation networks in mouse cortex**](https://www.biorxiv.org/content/early/2019/01/13/519694)<br>
-_Bioarxiv_ 2019 (under review)<br>
+[**Single-cell transcriptomic evidence for dense intracortical neuropeptide networks**](https://elifesciences.org/articles/47889)<br>
+_eLife_ 2019<br> [code](https://github.com/AllenInstitute/peptidergicnetworks)
 S Smith, U Sümbül, L Graybuck, F Collman, S Seshamani,
-**R Gala**, O Gliko, L Elabbady, J Miller, T Bakken, Z Yao, E Lein,
+**R Gala**, O Gliko, L Elabbady, J Miller, T Bakken, J Rossier, Z Yao, E Lein,
 H Zeng, B Tasic, M Hawrylycz.<br>
 
 [**Computer assisted detection of axonal bouton structural plasticity in in vivo time-lapse images**](https://elifesciences.org/articles/29315)<br>
