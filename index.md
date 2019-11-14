@@ -21,8 +21,8 @@ I'm broadly interested in representation learning, computer vision, and statisti
 _NeurIPS_ 2019<br>
 **R Gala**, N Gouwens, Z Yao, A Budzillo, O Penn, B Tasic, G Murphy, H Zeng, U Sümbül.<br>
 
-[**Single-cell transcriptomic evidence for dense intracortical neuropeptide networks**](https://elifesciences.org/articles/47889)<br>
-_eLife_ 2019<br> [code](https://github.com/AllenInstitute/peptidergicnetworks)
+[**Single-cell transcriptomic evidence for dense intracortical neuropeptide networks**](https://elifesciences.org/articles/47889) | [code](https://github.com/AllenInstitute/peptidergicnetworks)<br>
+_eLife_ 2019<br> 
 S Smith, U Sümbül, L Graybuck, F Collman, S Seshamani,
 **R Gala**, O Gliko, L Elabbady, J Miller, T Bakken, J Rossier, Z Yao, E Lein,
 H Zeng, B Tasic, M Hawrylycz.<br>
