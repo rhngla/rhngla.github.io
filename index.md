@@ -17,8 +17,8 @@ I obtained a Ph.D. from [Northeastern University](http://www.northeastern.edu/),
 ## Research 
 I'm broadly interested in representation learning, computer vision, and statistical mechanics. Currently, I'm developing non-linear dimensionality reduction methods to evaluate correspondence across different data modalities, aimed at establishing consistent cell type taxonomies.
 
-[**A coupled autoencoder approach for multi-modal analysis of cell types**](https://neurips.cc/Conferences/2019/AcceptedPapersInitial) | [preprint](https://arxiv.org/abs/1911.05663) | [code](https://github.com/AllenInstitute/coupledAE)<br>
-_NeurIPS_ 2019<br>
+[**A coupled autoencoder approach for multi-modal analysis of cell types**](http://papers.nips.cc/paper/9125-a-coupled-autoencoder-approach-for-multi-modal-analysis-of-cell-types) | [code](https://github.com/AllenInstitute/coupledAE)<br>
+_Advances in Neural Information Processing Systems_ 2019<br>
 **R Gala**, N Gouwens, Z Yao, A Budzillo, O Penn, B Tasic, G Murphy, H Zeng, U Sümbül.<br>
 
 [**Single-cell transcriptomic evidence for dense intracortical neuropeptide networks**](https://elifesciences.org/articles/47889) | [code](https://github.com/AllenInstitute/peptidergicnetworks)<br>
@@ -27,7 +27,7 @@ S Smith, U Sümbül, L Graybuck, F Collman, S Seshamani,
 **R Gala**, O Gliko, L Elabbady, J Miller, T Bakken, J Rossier, Z Yao, E Lein,
 H Zeng, B Tasic, M Hawrylycz.<br>
 
-[**Computer assisted detection of axonal bouton structural plasticity in in vivo time-lapse images**](https://elifesciences.org/articles/29315)<br>
+[**Computer assisted detection of axonal bouton structural plasticity in in vivo time-lapse images**](https://elifesciences.org/articles/29315) | [code](https://github.com/neurogeometry/BoutonAnalyzer)<br>
 _Elife_ 2017<br>
 **R Gala**, D Lebrecht, DA Sahlender, A Jorstad, G Knott, A Holtmaat, A Stepanyants<br>
 
