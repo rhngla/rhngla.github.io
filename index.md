@@ -28,7 +28,7 @@ S Smith, U Sümbül, L Graybuck, F Collman, S Seshamani,
 H Zeng, B Tasic, M Hawrylycz.<br>
 
 [**Computer assisted detection of axonal bouton structural plasticity in in vivo time-lapse images**](https://elifesciences.org/articles/29315) | [code](https://github.com/neurogeometry/BoutonAnalyzer)<br>
-_Elife_ 2017<br>
+_eLife_ 2017<br>
 **R Gala**, D Lebrecht, DA Sahlender, A Jorstad, G Knott, A Holtmaat, A Stepanyants<br>
 
 [**Effects of homeostatic constraints on associative memory storage and synaptic connectivity of cortical circuits**](https://www.frontiersin.org/articles/10.3389/fncom.2015.00074/full)<br>
