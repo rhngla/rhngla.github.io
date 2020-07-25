@@ -8,14 +8,18 @@ layout: default_nofooter
 ## About
 <img align='right' height='200' width='200' src="./assets/Rohan.png"/>
 
-I am a research scientist in the Informatics and Data Science group at the [Allen Institute](https://www.alleninstitute.org/). I develop computational methods to analyze multimodal datasets, with the aim of understanding the diversity and inter-relationships of cell types in the brain. 
+I am a research scientist in the Informatics and Data Science group at [Allen Institute](https://www.alleninstitute.org/). I develop computational methods to analyze multimodal datasets, with the aim of understanding the diversity and inter-relationships of cell types in the brain.
 
 I obtained a Ph.D. in Physics from [Northeastern University](http://www.northeastern.edu/), where I was advised by [Armen Stepanyants](https://scholar.google.com/citations?hl=en&user=l8csv_wAAAAJ&) as part of the [Neurogeometry lab](http://www.northeastern.edu/neurogeometry/). As part of my thesis, I developed computational tools [NCTracer](http://www.northeastern.edu/neurogeometry/resources/tools/) and [BoutonAnalyzer](https://github.com/neurogeometry/BoutonAnalyzer) to quantify neuronal structures from light microscopy images. I also worked on theoretical models of associative learning aimed at explaining statistical features of connectivity in the cortex. Prior to that, I obtained a B.Tech. & M.Tech. in Engineering Physics from [IIT Bombay](http://www.iitb.ac.in/). 
 
 [Email](mailto:rhngl@protonmail.com) / [Google Scholar](https://scholar.google.com/citations?user=_TlezdMAAAAJ) / [Github](https://github.com/rhngla) / [Twitter](https://twitter.com/rhngla) 
 
-## Research 
-I'm broadly interested in representation learning, computer vision, and statistical mechanics. My recent work focuses on developing non-linear dimensionality reduction methods for multimodal datasets. Specifically, I'm evaluating the correspondence of neuronal properties measured by different techniques (scRNA-seq, electrophysiology, morphology), aimed at establishing cell type taxonomies that are consistent across the data modalitues.
+## Research
+I'm broadly interested in using representation learning, computer vision, and statistical mechanics to develop analysis techniques for multimodal, high throughput datasets.
+
+[**Consistent cross-modal identification of cortical neurons with coupled autoencoders**](https://www.biorxiv.org/content/10.1101/2020.06.30.181065v1.abstract) | [code](https://codeocean.com/capsule/6320801/tree/v1)<br>
+_BioArxiv_ 2020<br>
+**R Gala**, A Budzillo, F Baftizadeh, J Miller, N Gouwens, A Arkhipov, B Tasic, G Murphy, H Zeng, M Hawrylycz, U Sümbül.<br>
 
 [**A coupled autoencoder approach for multi-modal analysis of cell types**](http://papers.nips.cc/paper/9125-a-coupled-autoencoder-approach-for-multi-modal-analysis-of-cell-types) | [code](https://github.com/AllenInstitute/coupledAE)<br>
 _Advances in Neural Information Processing Systems_ 2019<br>
