@@ -1,7 +1,7 @@
 ---
-layout: home
+layout: blog
 title: Blog
 permalink: /blog/
 ---
 
-Test blog landing page
+A collection of thoughts about papers I read as well as my own work. 
