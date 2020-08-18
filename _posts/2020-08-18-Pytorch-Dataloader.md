@@ -5,16 +5,15 @@ date:   2020-08-18
 categories: tutorial,python,pytorch
 ---
 
+Design requirement: 
+ - Not all members of the dataset are sampled per epoch.
+ - We want the entire dataset to be sampled evenly across the different epochs.
+
 Test description:
  - dataset has 4 elements
  - each batch has 1 element
  - we want to define number of batches per epoch = 2. 
  
-Design requirement: 
-In this test, not all members of the dataset are sampled per epoch.
-However, want the entire dataset to be sampled evenly across the different epochs.
-
-
 ```python
 class Custom_Dataset():
     def __init__(self,data=['a','b','c','d']):
