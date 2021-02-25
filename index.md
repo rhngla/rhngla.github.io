@@ -8,7 +8,7 @@ layout: default
 ## About
 <img align='right' height='200' width='200' src="./assets/Rohan.png"/>
 
-I am a research scientist in the Informatics and Data Science group at the [Allen Institute for Brain Science](https://www.alleninstitute.org/). I develop computational methods to analyze multimodal datasets, with the aim of understanding the diversity and inter-relationships of cell types in the brain.
+I am a Scientist II at [Allen Institute](https://alleninstitute.org/what-we-do/brain-science/about/team/staff-profiles/rohan-gala/). I develop computational methods to analyze _-omic_ and imaging datasets, with the aim of understanding the diversity and inter-relationships of brain cell types. 
 
 I obtained a Ph.D. in Physics from [Northeastern University](http://www.northeastern.edu/), where I worked in the [Neurogeometry lab](http://www.northeastern.edu/neurogeometry/). As part of my thesis, I developed computational tools [NCTracer](http://www.northeastern.edu/neurogeometry/resources/tools/) and [BoutonAnalyzer](https://github.com/neurogeometry/BoutonAnalyzer) to quantify neuronal structures from light microscopy images. I also worked on theoretical models of associative learning aimed at explaining statistical features of connectivity in the cortex. Prior to that, I obtained a B.Tech. & M.Tech. in Engineering Physics from [IIT Bombay](http://www.iitb.ac.in/).
 
@@ -17,9 +17,9 @@ I obtained a Ph.D. in Physics from [Northeastern University](http://www.northeas
 ## Research
 I'm broadly interested in using representation learning, computer vision, and statistical mechanics to develop analysis techniques for multimodal, high throughput datasets.
 
-[**Consistent cross-modal identification of cortical neurons with coupled autoencoders**](https://www.biorxiv.org/content/10.1101/2020.06.30.181065v1.abstract) | [code](https://codeocean.com/capsule/6320801/tree/v1)<br>
-_BioArxiv_ 2020<br>
-**R Gala**, A Budzillo, F Baftizadeh, J Miller, N Gouwens, A Arkhipov, B Tasic, G Murphy, H Zeng, M Hawrylycz, U Sümbül.<br>
+[**Consistent cross-modal identification of cortical neurons with coupled autoencoders**](http://doi.org/10.1038/s43588-021-00030-1) | [_News & Views_ commentary](https://www.nature.com/articles/s43588-021-00027-w) | [code](https://codeocean.com/capsule/6320801/tree/v1)<br>
+_Nature Computational Science_ 2021<br>
+**R Gala**, A Budzillo, F Baftizadeh, J Miller, N Gouwens, A Arkhipov, G Murphy, B Tasic, H Zeng, M Hawrylycz, U Sümbül.<br>
 
 [**A coupled autoencoder approach for multi-modal analysis of cell types**](http://papers.nips.cc/paper/9125-a-coupled-autoencoder-approach-for-multi-modal-analysis-of-cell-types) | [code](https://github.com/AllenInstitute/coupledAE)<br>
 _Advances in Neural Information Processing Systems_ 2019<br>
