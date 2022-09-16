@@ -8,11 +8,12 @@ layout: default
 ## About
 <img align='right' height='200' width='200' src="./assets/Rohan.png"/>
 
-I am a Scientist II at [Allen Institute](https://alleninstitute.org/what-we-do/brain-science/about/team/staff-profiles/rohan-gala/). I develop computational methods to analyze _-omic_, imaging, and time-series datasets, with the broad goal of understanding the function, diversity, and inter-relationships of brain cell types.
+I am a Scientist II at [Allen Institute](https://alleninstitute.org/what-we-do/brain-science/about/team/staff-profiles/rohan-gala/). I develop computational methods to analyze single cell genomic, microscopy imaging, and time-series datasets with the broad goal of understanding function, diversity, and inter-relationships of brain cells.
 
 I obtained a Ph.D. in Physics from [Northeastern University](http://www.northeastern.edu/), where I worked in the [Neurogeometry lab](http://www.northeastern.edu/neurogeometry/). As part of my thesis, I developed computational tools [NCTracer](http://www.northeastern.edu/neurogeometry/resources/tools/) and [BoutonAnalyzer](https://github.com/neurogeometry/BoutonAnalyzer) to quantify neuronal structures from light microscopy images. I also worked on theoretical models of associative learning aimed at explaining statistical features of connectivity in the cortex. Prior to that, I obtained a B.Tech. & M.Tech. in Engineering Physics from [IIT Bombay](http://www.iitb.ac.in/).
 
-[Email](mailto:rhngl@protonmail.com) / [Google Scholar](https://scholar.google.com/citations?user=_TlezdMAAAAJ) / [Github](https://github.com/rhngla) / [Twitter](https://twitter.com/rhngla)
+[📩 Email](mailto:rhngl@protonmail.com) / [📒 Google Scholar](https://scholar.google.com/citations?user=_TlezdMAAAAJ) / [🐙 Github](https://github.com/rhngla) / [🐦 Twitter](https://twitter.com/rhngla)
+
 
 ## Research
 I'm broadly interested in developing and applying principled computational tools to understand biological phenomena.
