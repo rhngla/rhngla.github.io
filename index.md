@@ -12,8 +12,7 @@ I obtained a Ph.D. in Physics from [Northeastern University](http://www.northeas
 [📩 Email](mailto:rhngl@protonmail.com) / [📒 Google Scholar](https://scholar.google.com/citations?user=_TlezdMAAAAJ) / [🐙 Github](https://github.com/rhngla)
 
 
-## Research
-I'm broadly interested in developing and applying principled computational tools to understand biological phenomena.
+## Research highlights
 
 [**Joint inference of discrete cell types and continuous type-specific variability in single-cell datasets with MMIDAS**](https://www.biorxiv.org/content/10.1101/2023.10.02.560574v1) | [code](https://github.com/AllenInstitute/MMIDAS) <br>
 _Nature Computational Science_ 2024<br>
