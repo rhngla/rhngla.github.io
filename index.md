@@ -1,22 +1,23 @@
 ---
-# You don't need to edit this file, it's empty on purpose.
-# Edit theme's home layout instead if you wanna make some changes
-# See: https://jekyllrb.com/docs/themes/#overriding-theme-defaults
 layout: default
 ---
 
 ## About
 <img align='right' height='200' width='200' src="./assets/Rohan.png"/>
 
-I am a Scientist II at [Allen Institute](https://alleninstitute.org/person/rohan-gala/). I develop computational methods (e.g. feature selection, dimensionality reduction, segmentation, source separation, graph analysis) to analyze single cell genomic, microscopy imaging, and time-series datasets with the broad goal of understanding function, diversity, and inter-relationships of brain cells. 
+I am a Scientist II at [Allen Institute](https://alleninstitute.org/person/rohan-gala/). I develop computational methods (e.g. feature selection, dimensionality reduction, segmentation, source separation, graph analysis) to analyze large-scale datasets (scRNA-seq, multiome, Patch-seq, MERFISH (spatal transcriptomic), light microscopy, fiber photometry) with the broad goal of understanding organization, function, diversity, and inter-relationships of brain cells. 
 
-I obtained a Ph.D. in Physics from [Northeastern University](http://www.northeastern.edu/), where I worked in the [Neurogeometry lab](http://www.northeastern.edu/neurogeometry/). As part of my thesis, I developed computational tools [NCTracer](http://www.northeastern.edu/neurogeometry/resources/tools/) and [BoutonAnalyzer](https://github.com/neurogeometry/BoutonAnalyzer) to quantify neuronal structures from light microscopy images. I also worked on theoretical models of associative learning aimed at explaining statistical features of connectivity in the cortex. Prior to that, I obtained a B.Tech. & M.Tech. in Engineering Physics from [IIT Bombay](http://www.iitb.ac.in/).
+I obtained a Ph.D. in Physics from [Northeastern University](http://www.northeastern.edu/), where I worked in the [Neurogeometry lab](http://www.northeastern.edu/neurogeometry/). As part of my thesis, I developed computational tools to quantify neuronal structures from light microscopy images. I also worked on theoretical models of associative learning aimed at explaining statistical features of connectivity in the cortex. Prior to that, I obtained a B.Tech. & M.Tech. in Engineering Physics from [IIT Bombay](http://www.iitb.ac.in/).
 
 [📩 Email](mailto:rhngl@protonmail.com) / [📒 Google Scholar](https://scholar.google.com/citations?user=_TlezdMAAAAJ) / [🐙 Github](https://github.com/rhngla) / [🐦 Twitter](https://twitter.com/rhngla)
 
 
 ## Research
 I'm broadly interested in developing and applying principled computational tools to understand biological phenomena.
+
+[**Joint inference of discrete cell types and continuous type-specific variability in single-cell datasets with MMIDAS**](https://www.biorxiv.org/content/10.1101/2023.10.02.560574v1) | [code](https://github.com/AllenInstitute/MMIDAS) <br>
+_Nature Computational Science_ 2024<br>
+Y Marghi, **R Gala**, F Baftizadeh, U Sümbül
 
 [**PROPOSE: Predictive and robust probe selection for spatial transcriptomics**](https://www.biorxiv.org/content/10.1101/2022.05.13.491738v1.abstract) | [code](https://github.com/iancovert/persist)<br>
 _Nature Communications (accepted)_ 2023<br>
