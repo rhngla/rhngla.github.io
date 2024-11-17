@@ -9,7 +9,7 @@ I am a Scientist II at [Allen Institute](https://alleninstitute.org/person/rohan
 
 I obtained a Ph.D. in Physics from [Northeastern University](http://www.northeastern.edu/), where I worked in the [Neurogeometry lab](http://www.northeastern.edu/neurogeometry/). As part of my thesis, I developed computational tools to quantify neuronal structures from light microscopy images. I also worked on theoretical models of associative learning aimed at explaining statistical features of connectivity in the cortex. Prior to that, I obtained a B.Tech. & M.Tech. in Engineering Physics from [IIT Bombay](http://www.iitb.ac.in/).
 
-[📩 Email](mailto:rhngl@protonmail.com) / [📒 Google Scholar](https://scholar.google.com/citations?user=_TlezdMAAAAJ) / [🐙 Github](https://github.com/rhngla) / [🐦 Twitter](https://twitter.com/rhngla)
+[📩 Email](mailto:rhngl@protonmail.com) / [📒 Google Scholar](https://scholar.google.com/citations?user=_TlezdMAAAAJ) / [🐙 Github](https://github.com/rhngla)
 
 
 ## Research
