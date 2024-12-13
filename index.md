@@ -5,7 +5,7 @@ layout: default
 ## About
 <img align='right' height='200' width='200' src="./assets/Rohan.png"/>
 
-I am a Scientist II at [Allen Institute](https://alleninstitute.org/person/rohan-gala/). I develop computational methods (e.g. feature selection, dimensionality reduction, segmentation, source separation, graph analysis) to analyze large-scale datasets (scRNA-seq, multiome, Patch-seq, MERFISH (spatal transcriptomic), light microscopy, fiber photometry) with the broad goal of understanding organization, function, diversity, and inter-relationships of brain cells. 
+I am a Scientist II at [Allen Institute](https://alleninstitute.org/person/rohan-gala/). I develop computational methods (e.g. representation learning, multimodal integration, feature selection, segmentation, source separation, graph analysis) to analyze large-scale datasets (scRNA-seq, multiome, Patch-seq, MERFISH (spatal transcriptomics), light microscopy, fiber photometry) with the broad goal of understanding organization, function, diversity, and inter-relationships of brain cells. 
 
 I obtained a Ph.D. in Physics from [Northeastern University](http://www.northeastern.edu/), where I worked in the [Neurogeometry lab](http://www.northeastern.edu/neurogeometry/). As part of my thesis, I developed computational tools to quantify neuronal structures from light microscopy images. I also worked on theoretical models of associative learning aimed at explaining statistical features of connectivity in the cortex. Prior to that, I obtained a B.Tech. & M.Tech. in Engineering Physics from [IIT Bombay](http://www.iitb.ac.in/).
 
